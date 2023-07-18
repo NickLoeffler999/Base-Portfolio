@@ -3,30 +3,162 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
     <title>Nick Loeffler</title>
+    <style>
+      :root {
+        --primary-color: #025568;
+        --secondary-color: #70e1bd;
+      }
+
+      body {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+      }
+
+      .hero.is-primary {
+        background-color: var(--primary-color);
+      }
+
+      .hero.is-info {
+        background-color: var(--secondary-color);
+      }
+    </style>
   </head>
 
   <body>
-    <header>
-      <h1>
-        <a href="/">Nick Loeffler</a>
-      </h1>
-      <nav>
-        <ul>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    <header class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            <a href="/">Nick Loeffler</a>
+          </h1>
+          <nav>
+            <ul class="is-flex is-justify-content-center">
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#contact-me">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
-    <footer>
-      <h2>© 2023 Nick Loeffler</h2>
+    <!-- Start of Hero Section -->
+    <section class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h2 class="title is-3">Full-Stack Website Development Student</h2>
+        </div>
+      </div>
+    </section>
+    <!-- End of Hero Section -->
+
+    <!-- Start of "About Me" Section -->
+    <section id="about-me" class="section">
+      <div class="container">
+        <h2 class="title">About Me</h2>
+        <div class="columns">
+          <div class="column is-half">
+            <img
+              src="./assets/images/Selfie.jpg"
+              alt="My picture"
+              class="image"
+            />
+          </div>
+          <div class="column">
+            <p>
+              Hello! My name is Nick Loeffler and I am a full-stack website
+              development student at Michigan State University. I am currently
+              going to school in a boot camp and am learning new skills every
+              day. I am currently learning HTML, CSS, JavaScript, Node.js,
+              Express.js, etc. This portfolio website is designed to showcase my
+              work to anyone who is interested in seeing what I have done so
+              far. I am excited to see where this journey takes me and I am
+              ready to see what I can do with the skills I have learned so far.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Begin Work Section -->
+
+    <section id="work" class="section">
+      <div class="container">
+        <h2 class="title">Projects</h2>
+        <div class="columns">
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <a
+                    href="https://nickloeffler999.github.io/password-generator/"
+                    >Password Generator</a
+                  ><br /><small>JavaScript Password Generator</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <a href="https://nickloeffler999.github.io/weather-dashboard/"
+                    >Weather Dashboard</a
+                  ><br /><small>HTML, CSS, and JavaScript, API's</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <a
+                    href="https://nickloeffler999.github.io/work-day-scheduler/"
+                    >Work Day Scheduler</a
+                  ><br /><small>HTML, CSS, advanced JavaScript</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-me" class="section">
+      <div class="container">
+        <h2 class="title">Connect With Me</h2>
+        <div class="columns is-centered">
+          <div class="column is-narrow">
+            <div class="box">
+              <a href="mailto:nickloeffler999@gmail.com">Email Me</a>
+            </div>
+          </div>
+          <div class="column is-narrow">
+            <div class="box">
+              <a href="https://www.linkedin.com/in/nicholas-loeffler-22809a273/"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+          <div class="column is-narrow">
+            <div class="box">
+              <a href="https://github.com/NickLoeffler999">Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer has-text-centered">
+      <div class="container">
+        <h2 class="title">© 2023 Nick Loeffler</h2>
+      </div>
     </footer>
   </body>
 </html>
