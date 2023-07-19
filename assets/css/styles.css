@@ -3,7 +3,6 @@
   --green: #70e1bd;
 }
 
-/* Global Styling */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -30,7 +29,6 @@ image {
   background-color: var(--green);
 }
 
-/* Header Section Styling */
 header {
   padding: 20px 35px;
   background-color: #024e76;
@@ -46,141 +44,6 @@ header {
   z-index: 9999;
 }
 
-header h1 {
-  font-weight: bold;
-  margin: 0;
-  font-size: 36px;
-  color: #fce138;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-header a {
-  text-decoration: none;
-  color: #fce138;
-}
-
-header nav {
-  margin: 7px 0;
-}
-
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-
-header nav ul li a {
-  padding: 10px 15px;
-  font-weight: lighter;
-  font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-header nav ul li a:hover {
-  color: #70e1bd;
-}
-
-/* Footer Section Styling */
-footer {
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-footer h2 {
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
-
-/* Section Global Styling */
 section {
-  padding: 60px;
-}
-
-.section {
-  background-color: #024e76;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Section Titles Styling */
-.section-title {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  font-size: 35px;
-  color: #fce138;
-  margin: 0 auto 0 auto;
-  padding-right: 15px;
-  width: 10%;
-  text-align: end;
-  border-right: #fce138 solid 3px;
-}
-
-/* Section Contents Styling */
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 auto 0 auto;
-  width: 90%;
-}
-
-.flex-row2 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 auto 0 auto;
-  width: 90%;
-  border-left: #fce138 solid 3px;
-}
-
-.photo {
-  width: 10%;
-  height: auto;
-  padding-left: 1%;
-}
-
-/* Font and Anchor Elements Styling */
-.section p,
-.section a {
-  line-height: 1.5;
-  color: #fce138;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 30px;
-  text-align: center;
-  padding: 0 15px 0 15px;
-}
-
-/* Main Project Section Styling */
-.main-project {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto 0 auto;
-  height: 650px;
-  width: 100%;
-}
-
-/* Other Projects Section Styling */
-.side-projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 auto 0 auto;
-  flex-direction: row;
-  width: 100%;
+  padding: 70px;
 }
