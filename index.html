@@ -24,6 +24,7 @@
       }
 
       .hero.is-info {
+        text-align: center;
         background-color: var(--secondary-color);
       }
     </style>
@@ -38,56 +39,65 @@
           </h1>
           <nav>
             <ul class="is-flex is-justify-content-center">
-              <li><a href="#about-me">About Me</a></li>
-              <li><a href="#work">Work</a></li>
-              <li><a href="#contact-me">Contact</a></li>
+              <li>
+                <a href="#about-me" class="button is-primary is-large mr-2"
+                  >About Me</a
+                >
+              </li>
+              <li>
+                <a href="#projects" class="button is-primary is-large mr-2"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#connect-with-me"
+                  class="button is-primary is-large mr-2"
+                  >Connect</a
+                >
+              </li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
 
-    <!-- Start of Hero Section -->
     <section class="hero is-info">
       <div class="hero-body">
         <div class="container">
-          <h2 class="title is-3">Full-Stack Website Development Student</h2>
+          <h2 class="title is-3">
+            Full-Stack Web Development Student at Michigan State University
+          </h2>
         </div>
       </div>
     </section>
-    <!-- End of Hero Section -->
 
-    <!-- Start of "About Me" Section -->
     <section id="about-me" class="section">
       <div class="container">
-        <h2 class="title">About Me</h2>
-        <div class="columns">
-          <div class="column is-half">
-            <img
-              src="./assets/images/Selfie.jpg"
-              alt="My picture"
-              class="image"
-            />
+        <h2 class="title is-2">About Me</h2>
+        <div class="columns is-vcentered">
+          <div class="column is-one-third">
+            <figure class="image is-256x256">
+              <img src="./assets/images/Selfie.jpg" alt="My picture" />
+            </figure>
           </div>
           <div class="column">
-            <p>
+            <p class="is-size-5">
               Hello! My name is Nick Loeffler and I am a full-stack website
               development student at Michigan State University. I am currently
-              going to school in a boot camp and am learning new skills every
-              day. I am currently learning HTML, CSS, JavaScript, Node.js,
-              Express.js, etc. This portfolio website is designed to showcase my
-              work to anyone who is interested in seeing what I have done so
-              far. I am excited to see where this journey takes me and I am
-              ready to see what I can do with the skills I have learned so far.
+              attending a boot camp and learning new skills every day. I am
+              proficient in HTML, CSS, JavaScript, Node.js, and Express.js. This
+              portfolio website is designed to showcase my projects to anyone
+              interested in seeing my work. I am excited to embark on this
+              journey and eager to utilize my skills to create amazing web
+              applications.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Begin Work Section -->
-
-    <section id="work" class="section">
+    <section id="projects" class="section">
       <div class="container">
         <h2 class="title">Projects</h2>
         <div class="columns">
@@ -119,7 +129,7 @@
               <div class="card-content">
                 <p>
                   <a
-                    href="https://nickloeffler999.github.io/work-day-scheduler/"
+                    href="https://nickloeffler999.github.io/projects-day-scheduler/"
                     >Work Day Scheduler</a
                   ><br /><small>HTML, CSS, advanced JavaScript</small>
                 </p>
@@ -130,7 +140,7 @@
       </div>
     </section>
 
-    <section id="contact-me" class="section">
+    <section id="connect-with-me" class="section">
       <div class="container">
         <h2 class="title">Connect With Me</h2>
         <div class="columns is-centered">
